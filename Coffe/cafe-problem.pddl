@@ -26,3 +26,15 @@
     (= (capsula-cafe-nivel pingado) 60)
 
     (= (canecas-livres) 10)
+
+    (= (cafe-servidos chococino) 0)
+    (= (cafe-servidos ristreto) 0)
+    (= (cafe-servidos pingado) 0)
+  )
+  (:goal (and
+            (= (cafe-servidos chococino) 1)
+            (= (cafe-servidos ristreto) 2)
+            (= (cafe-servidos pingado) 3)
+        )
+  )
+)
