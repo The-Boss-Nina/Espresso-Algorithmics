@@ -1,8 +1,8 @@
 using PDDL, PlanningDomains, SymbolicPlanners
 
-domain = load_domain("cafe-domain.pddl")
+domain = load_domain("caffe-domain.pddl")
 
-problem = load_problem("cafe-problem.pddl")
+problem = load_problem("caffe-problem.pddl")
 
 state = initstate(domain, problem)
 
